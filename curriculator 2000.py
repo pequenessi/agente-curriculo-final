@@ -11,6 +11,11 @@ Original file is located at
 
 
 from flask import Flask, request, jsonify
+
+
+from pyngrok import ngrok
+
+from flask import Flask, request, jsonify
 from flask_cors import CORS  # Importe o CORS
 from google.adk.agents import Agent
 from google.genai import types
