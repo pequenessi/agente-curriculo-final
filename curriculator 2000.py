@@ -8,11 +8,17 @@ Original file is located at
 """
 
 # Commented out IPython magic to ensure Python compatibility.
+# %pip install -q google-genai
 
 
+%pip install -q google-adk
+    
+%pip install flask-cors
+
+%pip install Flask
 from flask import Flask, request, jsonify
 
-
+%pip install pyngrok
 from pyngrok import ngrok
 
 from flask import Flask, request, jsonify
