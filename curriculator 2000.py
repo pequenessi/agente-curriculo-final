@@ -10,7 +10,6 @@ Original file is located at
 # Commented out IPython magic to ensure Python compatibility.
 # %pip install -q google-genai
 
-pip install -q google-adk
 
 %pip install flask-cors
 
